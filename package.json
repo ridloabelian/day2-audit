@@ -4,6 +4,14 @@
   "description": "Fast offline Day-2 production readiness scanner for vibe-coded web & AI apps",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridloabelian/day2-audit.git"
+  },
+  "homepage": "https://github.com/ridloabelian/day2-audit#readme",
+  "bugs": {
+    "url": "https://github.com/ridloabelian/day2-audit/issues"
+  },
   "engines": {
     "node": ">=22.0.0"
   },

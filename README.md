@@ -1,5 +1,7 @@
 # day2-audit
 
+[![CI](https://github.com/ridloabelian/day2-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/ridloabelian/day2-audit/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 Fast, offline **Day-2 production readiness CLI scanner** for weekend and vibe-coded web & AI repositories.
 
 Shipped your MVP with Cursor, Claude, or v0? `day2-audit` audits your codebase in milliseconds — with **zero external paid API calls** — to catch the security, cost-runaway, API safety, reliability, and operational gaps that break real-world production launches.
