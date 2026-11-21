@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+DAY2_REPORT.md
+*.tgz
+.DS_Store

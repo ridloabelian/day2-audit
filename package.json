@@ -1,0 +1,52 @@
+{
+  "name": "day2-audit",
+  "version": "0.1.0",
+  "description": "Fast offline Day-2 production readiness scanner for vibe-coded web & AI apps",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bin": {
+    "day2-audit": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.check.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "scan:demo": "node dist/cli.js scan fixtures/vulnerable-vibe-app"
+  },
+  "keywords": [
+    "cli",
+    "security",
+    "production-readiness",
+    "static-analysis",
+    "vibe-coding",
+    "nextjs",
+    "supabase",
+    "llm"
+  ],
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

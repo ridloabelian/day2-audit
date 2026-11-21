@@ -1,0 +1,22 @@
+{
+  "name": "hardened-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:migrate": "prisma migrate deploy",
+    "db:backup": "bash scripts/backup-db.sh"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.2.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "@upstash/ratelimit": "^2.0.5",
+    "next": "^15.1.6",
+    "openai": "^4.86.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "stripe": "^17.6.0"
+  }
+}
